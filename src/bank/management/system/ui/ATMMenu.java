@@ -35,10 +35,19 @@ public class ATMMenu {
             new BalanceEnquiry(account);
 
         });
+        JButton statement = new JButton("Mini Statement");
+        statement.setBounds(100,200,150,30);
+
+        statement.addActionListener(e -> {
+
+            new MiniStatement(account);
+
+        });
 
         frame.add(deposit);
         frame.add(withdraw);
         frame.add(balance);
+        frame.add(statement);
 
         frame.setSize(400,300);
         frame.setLayout(null);
