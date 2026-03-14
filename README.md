@@ -22,19 +22,29 @@ This project demonstrates core banking operations like account creation, deposit
 
 ## Project Structure
 
+## Project Structure
+
+```
 bank-management-system
 │
-├── database
-│   └── Conn.java
+├── src
+│   └── bank
+│       └── management
+│           └── system
+│               ├── database
+│               │   └── Conn.java
+│               │
+│               └── ui
+│                   ├── CreateAccount.java
+│                   ├── Login.java
+│                   ├── ATMMenu.java
+│                   ├── Deposit.java
+│                   ├── Withdraw.java
+│                   ├── BalanceEnquiry.java
+│                   └── MiniStatement.java
 │
-├── ui
-│   ├── CreateAccount.java
-│   ├── Login.java
-│   ├── ATMMenu.java
-│   ├── Deposit.java
-│   ├── Withdraw.java
-│   ├── BalanceEnquiry.java
-│   └── MiniStatement.java
+└── README.md
+```
 
 ## Database Setup
 
