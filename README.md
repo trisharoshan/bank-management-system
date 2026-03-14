@@ -22,8 +22,6 @@ This project demonstrates core banking operations like account creation, deposit
 
 ## Project Structure
 
-## Project Structure
-
 ```
 bank-management-system
 │
